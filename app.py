@@ -422,7 +422,9 @@ def sprome() :
 
 
 # redirection vers la page admin pour voirs les personnes inscrites
+
 @app.route('/admining')
+# @login_requiered
 def index() :
     profiles = Profil.query.all()
     return render_template('index.html', profiles = profiles)

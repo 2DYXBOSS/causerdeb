@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +15,7 @@
     <header>
         <div class="dex2">
             <div class="mp">
-                {% with messages = get_flashed_messages() %}
+                <!-- {% with messages = get_flashed_messages() %}
                     {% if messages %}
                     <ul style="text-align: center;">
                         {% for message in messages %}
@@ -21,12 +23,12 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
-                    {% endwith %}
+                    {% endwith %} -->
                 <div class="hea2">
-                    <strong><p style="color: rgba(162, 117, 204, 0.555);"><span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 3rem;color: blueviolet;">B</span>lay Library</p></strong>
+                    <strong><p style="color: rgba(162, 117, 204, 0.555);"><span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 3rem;color: rgb(245, 167, 0);">B</span>lay Library</p></strong>
                 </div>
                 <div class="hea2">
-                    <h2 style="color: blueviolet;font-size: 1.3rem;margin-bottom: 10px;">inscription</h2>
+                    <h2 style="color: rgb(245, 167, 0);font-size: 1.3rem;margin-bottom: 10px;">inscription</h2>
                 </div>
                 <form action="/add" method="POST" class="formulaire">
                     <label >Nom et Prenom</label>
